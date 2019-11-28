@@ -1,0 +1,763 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ /usr/local/bin/python3 /Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 55881 /Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/tests/test_deepvoice3.py 
+Fatal Python error: PyCOND_WAIT(gil_cond) failed
+
+Thread 0x000070000da7e000 (most recent call first):
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd.py", line 199 in _on_run
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 149 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x000070000d57b000 (most recent call first):
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd.py", line 159 in _on_run
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 149 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x000070000d078000 (most recent call first):
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/wrapper.py", line 168 in recv
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 248 in _read_line
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 262 in _on_run
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 149 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x000070000cb75000 (most recent call first):
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 388 in _on_run
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py", line 149 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x000070000c672000 (most recent call first):
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/ipcjson.py", line 113 in _buffered_read_line_as_ascii
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/ipcjson.py", line 154 in _wait_for_message
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/ipcjson.py", line 272 in process_one_message
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/ipcjson.py", line 258 in process_messages
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/wrapper.py", line 521 in process_messages
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 864 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Thread 0x000070000c16f000 (most recent call first):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 299 in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 551 in wait
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/futures.py", line 122 in run_forever
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 864 in run
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 916 in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 884 in _bootstrap
+
+Current thread 0x00007fff650acdc0 (most recent call first):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/posixpath.py", line 169 in islink
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/posixpath.py", line 420 in _joinrealpath
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/posixpath.py", line 386 in realpath
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd_file_utils.py", line 341 in _NormPath
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd_file_utils.py", line 328 in _NormPaths
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd_file_utils.py", line 698 in get_abs_path_real_path_and_base_from_file
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd_file_utils.py", line 718 in get_abs_path_real_path_and_base_from_frame
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 437 in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/threading.py", line 1260 in enumerate
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd_tracing.py", line 186 in set_trace_to_threads
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd.py", line 758 in enable_tracing
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd.py", line 2266 in _locked_settrace
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_vendored/pydevd/pydevd.py", line 2179 in settrace
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/_remote.py", line 95 in attach
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/__main__.py", line 291 in setup_connection
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/__main__.py", line 300 in run_file
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/old_ptvsd/ptvsd/__main__.py", line 432 in main
+  File "/Users/stomar/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py", line 43 in <module>
+Abort trap: 6
+bash-3.2$ python --version
+Python 2.7.15
+bash-3.2$ python ./tests/
+data/               test_audio.py       test_conv.py        test_deepvoice3.py  test_embedding.py   test_frontend.py    test_nyanko.py
+bash-3.2$ python ./tests/test_deepvoice3.py 
+bash-3.2$ python ./tests/test_audio.py 
+bash-3.2$ python ./tests/test_conv.py 
+bash-3.2$ python ./tests/test_embedding.py 
+bash-3.2$ python ./tests/test_frontend.py
+bash-3.2$ python ./tests/test_nyanko.py
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0
+Traceback (most recent call last):
+  File "preprocess.py", line 18, in <module>
+    from hparams import hparams, hparams_debug_string
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/hparams.py", line 1, in <module>
+    import hparam_tf.hparam
+ImportError: No module named hparam_tf.hparam
+bash-3.2$ python train.py --preset=presets/deepvoice3_ljspeech.json --data-root=./data/ljspeech
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "train.py", line 33, in <module>
+    import audio
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/audio.py", line 6, in <module>
+    from hparams import hparams
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/hparams.py", line 1, in <module>
+    import hparam_tf.hparam
+ImportError: No module named hparam_tf.hparam
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.1/ ./data/ljspeech
+Traceback (most recent call last):
+  File "preprocess.py", line 18, in <module>
+    from hparams import hparams, hparams_debug_string
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/hparams.py", line 1, in <module>
+    import hparam_tf.hparam
+ImportError: No module named hparam_tf.hparam
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0/ ./data/ljspeech
+Traceback (most recent call last):
+  File "preprocess.py", line 18, in <module>
+    from hparams import hparams, hparams_debug_string
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/hparams.py", line 1, in <module>
+    import hparam_tf.hparam
+ImportError: No module named hparam_tf.hparam
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 59, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 22, in preprocess
+    os.makedirs(out_dir, exist_ok=True)
+TypeError: makedirs() got an unexpected keyword argument 'exist_ok'
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 60, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 24, in preprocess
+    metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/ljspeech.py", line 27, in build_from_path
+    with open(os.path.join(in_dir, 'metadata.csv'), encoding='utf-8') as f:
+TypeError: 'encoding' is an invalid keyword argument for this function
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 60, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 23, in preprocess
+    os.makedirs(out_dir)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 17] File exists: './data/ljspeech'
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.0/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 66, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 30, in preprocess
+    metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/ljspeech.py", line 29, in build_from_path
+    with io.open(os.path.join(in_dir, 'metadata.csv'), encoding='utf-8') as f:
+IOError: [Errno 2] No such file or directory: '/Users/stomar/data/LJSpeech-1.0/metadata.csv'
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.1/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 66, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 30, in preprocess
+    metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/ljspeech.py", line 29, in build_from_path
+    with io.open(os.path.join(in_dir, 'metadata.csv'), encoding='utf-8') as f:
+IOError: [Errno 2] No such file or directory: '/Users/stomar/data/LJSpeech-1.1/metadata.csv'
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ~/data/LJSpeech-1.1/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+Traceback (most recent call last):
+  File "preprocess.py", line 66, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 30, in preprocess
+    metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/ljspeech.py", line 29, in build_from_path
+    with io.open(os.path.join(in_dir, 'metadata.csv'), encoding='utf-8') as f:
+IOError: [Errno 2] No such file or directory: '/Users/stomar/data/LJSpeech-1.1/metadata.csv'
+bash-3.2$ python preprocess.py --preset=presets/deepvoice3_ljspeech.json ljspeech ./data/LJSpeech-1.1/ ./data/ljspeech
+Hyperparameters:
+  adam_beta1: 0.5
+  adam_beta2: 0.9
+  adam_eps: 1e-06
+  allow_clipping_in_normalization: True
+  amsgrad: False
+  batch_size: 16
+  binary_divergence_weight: 0.1
+  builder: deepvoice3
+  checkpoint_interval: 10000
+  clip_thresh: 0.1
+  converter_channels: 256
+  decoder_channels: 256
+  downsample_step: 4
+  dropout: 0.05
+  embedding_weight_std: 0.1
+  encoder_channels: 512
+  eval_interval: 10000
+  fft_size: 1024
+  fmax: 7600
+  fmin: 125
+  force_monotonic_attention: True
+  freeze_embedding: False
+  frontend: en
+  guided_attention_sigma: 0.2
+  hop_size: 256
+  ignore_recognition_level: 2
+  initial_learning_rate: 0.0005
+  kernel_size: 3
+  key_position_rate: 1.385
+  key_projection: True
+  lr_schedule: noam_learning_rate_decay
+  lr_schedule_kwargs: {}
+  masked_loss_weight: 0.5
+  max_positions: 512
+  min_level_db: -100
+  min_text: 20
+  n_speakers: 1
+  name: deepvoice3
+  nepochs: 2000
+  num_mels: 80
+  num_workers: 2
+  outputs_per_step: 1
+  padding_idx: 0
+  pin_memory: True
+  power: 1.4
+  preemphasis: 0.97
+  priority_freq: 3000
+  priority_freq_weight: 0.0
+  process_only_htk_aligned: False
+  query_position_rate: 1.0
+  ref_level_db: 20
+  replace_pronunciation_prob: 0.5
+  rescaling: False
+  rescaling_max: 0.999
+  sample_rate: 22050
+  save_optimizer_state: True
+  speaker_embed_dim: 16
+  speaker_embedding_weight_std: 0.01
+  text_embed_dim: 256
+  trainable_positional_encodings: False
+  use_decoder_state_for_postnet_input: True
+  use_guided_attention: True
+  use_memory_mask: True
+  value_projection: True
+  weight_decay: 0.0
+  window_ahead: 3
+  window_backward: 1
+/usr/local/lib/python2.7/site-packages/librosa/__init__.py:35: FutureWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
+  FutureWarning)
+ 53%|█████▎    | 6947/13047 [06:08<1:41:44,  1.00s/it]Traceback (most recent call last):
+  File "preprocess.py", line 66, in <module>
+    preprocess(mod, in_dir, out_dir, num_workers)
+  File "preprocess.py", line 30, in preprocess
+    metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
+  File "/Users/stomar/001_sudhir2020/skive_it/11282019/deepvoice3_pytorch/ljspeech.py", line 39, in build_from_path
+    return [future.result() for future in tqdm(futures)]
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/_base.py", line 462, in result
+    return self.__get_result()
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/_base.py", line 414, in __get_result
+    raise exception_type, self._exception, self._traceback
+IOError: 53600 requested and 9184 written
+ 53%|█████▎    | 6947/13047 [06:09<05:24, 18.78it/s]  
+^CError in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 80, in _python_exit
+    t.join(sys.maxint)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 951, in join
+    self.__block.wait(delay)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 359, in wait
+    _sleep(delay)
+KeyboardInterrupt
+^CError in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/util.py", line 328, in _exit_function
+Process Process-2:
+Traceback (most recent call last):
+Process Process-3:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+Process Process-4:
+Traceback (most recent call last):
+    p.join()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 148, in join
+    res = self._popen.wait(timeout)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/forking.py", line 154, in wait
+    self.run()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 122, in _process_worker
+    self.run()
+    self.run()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 122, in _process_worker
+    Process Process-1:
+self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 122, in _process_worker
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 122, in _process_worker
+    return self.poll(0)
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/Users/stomar/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py", line 208, in _queue_management_worker
+    result_item = result_queue.get(block=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py", line 117, in get
+    res = self._recv()
+EOFError
+
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/forking.py", line 135, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Error in sys.exitfunc:
+    call_item = call_queue.get(block=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py", line 115, in get
+    self._rlock.acquire()
+KeyboardInterrupt
+    call_item = call_queue.get(block=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py", line 115, in get
+    self._rlock.acquire()
+KeyboardInterrupt
+    call_item = call_queue.get(block=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py", line 115, in get
+    self._rlock.acquire()
+KeyboardInterrupt
+    call_item = call_queue.get(block=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py", line 117, in get
+    res = self._recv()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/util.py", line 328, in _exit_function
+    p.join()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py", line 148, in join
+    res = self._popen.wait(timeout)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/forking.py", line 154, in wait
+    return self.poll(0)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/forking.py", line 135, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+bash-3.2$ 
