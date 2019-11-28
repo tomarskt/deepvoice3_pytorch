@@ -19,7 +19,14 @@ from hparams import hparams, hparams_debug_string
 
 
 def preprocess(mod, in_dir, out_root, num_workers):
-    os.makedirs(out_dir, exist_ok=True)
+    # os.makedirs(out_dir, exist_ok=True)
+    try:
+        if not os.path.exists(os.path.dirname(out_dir)):
+    #    os.makedirs(os.path.dirname(mydir))
+            os.makedirs(out_dir)
+    except OSError as e:
+        if e.errno != 17:
+            print("Error:", e)
     metadata = mod.build_from_path(in_dir, out_dir, num_workers, tqdm=tqdm)
     write_metadata(metadata, out_dir)
 
